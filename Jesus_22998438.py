@@ -7,13 +7,13 @@ Cada participante debe completar su módulo y luego solicitar el Pull-Request.
 
 
 def li(x, i):
-  def _(var):
-    acum = 1
-    for j in range(len(x)):
-      if(i != j):
-        acum *= (var-x[j])/(x[i]-x[j])
-    return acum
-  return _
+    def _(var):
+        acum = 1
+        for j in range(len(x)):
+            if(i != j):
+                acum *= (var-x[j])/(x[i]-x[j])
+        return acum
+    return _
 
 def polinomio_lagrange(X, Y):
     """
